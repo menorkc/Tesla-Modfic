@@ -1,0 +1,124 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    .center {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    section.main {
+        width: 100%;
+        min-height: 100%;
+        position: relative;
+        background-image: url('/img/teslabg.webp');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .login-box {
+        position: auto;
+        margin-top: 20%;
+        display: inline-table;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 40%;
+        margin-right: 40%;
+        background: rgba(255, 255, 255, 0.503);
+        tab-size: 20px;
+        border-radius: 20px;
+        align-items: center;
+    }
+    
+    .h3 {
+        display: block;
+        width: 80%;
+        margin-left: 10PX;
+    }
+    
+    .log1 {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 20px;
+        border-style: none;
+        padding: 5px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.749);
+        color: white;
+    }
+    
+    .pass1 {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 20px;
+        border-style: none;
+        padding: 5px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.749);
+        color: white;
+    }
+    
+    .buttentra a {
+        display: inline-block;
+        margin: 0px;
+        color: black;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 5px 15px;
+    }
+    
+    .buttentra a:hover {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .butt1 {
+        display: flex;
+        border-style: none;
+        background: none;
+    }
+    
+    .buttfalha a {
+        font-display: flex;
+        color: black;
+        font-size: 10px;
+        position: absolute;
+        margin-left: 90px;
+    }
+    
+    .buttregistrase a {
+        display: inline-block;
+        margin: 0px;
+        color: black;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 5px 15px;
+    }
+    
+    .butt2 {
+        background: none;
+        border: none;
+    }
+    
+    .buttregistrase a:hover {
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
